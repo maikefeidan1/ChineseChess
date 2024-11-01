@@ -2,12 +2,14 @@
 
 #### 介绍
 
+- **其他账号**：bilibili账号：麦克飞弹1 (UID: 1477694893)
+
 - **项目简介：**
   一个用Java Swing开发的简单象棋游戏，仅包含游戏界面。游戏素材像素不高（来源于网络下载的素材）。
 
   此项目属于个人业余开发，作为对Java基础知识的练习，在某些方面上可能开发的不是很好。
 
-  bilibili账号：麦克飞弹1 (UID: 1477694893)
+  
 
 - **启动游戏：**
   通过运行`start.java`启动游戏。游戏启动后，可以使用键盘键位进行对应操作。在游戏启动前，也可以在`start.java`中进行自定义初始化开局。目前只有可以设置开局是否黑方在下、自定义所有棋子和设置黑方先走（有注释示例）。注意，自定义的所有棋子需要符合规范，即对应位置和数量需要正确，否则会报错（如果报错了可以通过终端输出查看哪里出现自定义初始化错误）。因此，你需要了解象棋规则。如果不做任何自定义初始化设置，则为默认初始化开局。
@@ -73,4 +75,3 @@
 
   - **Methods:**
     - `createPiece(int x, int y, int sign)`: The first parameter is the horizontal coordinate of the piece on the board (0-8), the second parameter is the vertical coordinate of the piece on the board (0-9), and the number set outside the specified range is invalid (an error will be reported). The third parameter is the identifier of the piece, setting 1 will create a red piece, setting 2 will create a black piece, other numbers are invalid (an error will be reported).
-
