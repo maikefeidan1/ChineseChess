@@ -2,9 +2,12 @@
 
 #### 介绍
 
-- **其他账号**：bilibili账号：麦克飞弹1 (UID: 1477694893)
+- **其他账号：**
+
+  bilibili账号：麦克飞弹1 (UID: 1477694893)
 
 - **项目简介：**
+
   一个用Java Swing开发的简单象棋游戏，仅包含游戏界面。游戏素材像素不高（来源于网络下载的素材）。
 
   此项目属于个人业余开发，作为对Java基础知识的练习，在某些方面上可能开发的不是很好。
@@ -12,6 +15,7 @@
   
 
 - **启动游戏：**
+
   通过运行`start.java`启动游戏。游戏启动后，可以使用键盘键位进行对应操作。在游戏启动前，也可以在`start.java`中进行自定义初始化开局。目前只有可以设置开局是否黑方在下、自定义所有棋子和设置黑方先走（有注释示例）。注意，自定义的所有棋子需要符合规范，即对应位置和数量需要正确，否则会报错（如果报错了可以通过终端输出查看哪里出现自定义初始化错误）。因此，你需要了解象棋规则。如果不做任何自定义初始化设置，则为默认初始化开局。
 
 #### 键位说明
@@ -44,6 +48,7 @@
 #### Introduction
 
 - **Project Introduction:**
+
   A simple chess game developed in Java Swing, containing only the game interface. The game material is not high pixel (from the Internet download material).
 
   This project is a personal amateur development, as an exercise in the basic knowledge of Java, in some aspects may not be very good development.
@@ -51,6 +56,7 @@
   bilibili Account: Mike Missile 1 (UID: 1477694893)
 
 - **Start the game:**
+
   Start the game by running 'start.java'. After the game starts, you can use the keyboard keys for corresponding operations. Before the game starts, it is also possible to customize the initial opening in 'start.java'. At present, you can only set whether the opening is black next, customize all pieces, and set black to go first (there are annotation examples). Note that all the customized pieces need to meet the specifications, that is, the corresponding position and number need to be correct, otherwise an error will be reported (if an error is reported, you can check the terminal output to see where the custom initialization error occurs). Therefore, you need to know the rules of chess. If you do not perform any custom initialization settings, the start is initialized by default.
 
 #### Key description
